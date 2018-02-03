@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>متجر أفرشة أوسكار تريكوتي</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <!--بداية الشريط العلوي-->
+        <div class="row">
+          <nav class="navbar navbar-default custom-navbar">
+              <div class="container">
+                <div class="navbar-header">
+                 <button class="btn btn-default custom-btn navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsed-menu">
+                    <i class="fa fa-bars fa-lg"></i>  
+                  </button>
+                  <a href="checkout.html" class="btn btn-default custom-btn navbar-toggle">
+                     <i class="fa fa-shopping-cart fa-lg"></i>  
+                  </a>
+                  <a href="." class="navbar-brand">
+                     <img src="images/logo.png" alt="متجر أفرشة أوسكار">  
+                  </a>
+                </div>
+                <div class="nav navbar-nav navbar-left">
+                   <form action class="navbar-form">
+                     <div class="input-group">
+                       <input type="text" class="form-control custom-form-control" placeholder="كلمة البحث" required> 
+                         <div class="input-group-btn">
+                           <button class="hidden-xs hidden-sm btn btn-default dropdown-toggle custom-btn" data-toggle="dropdown">اختر 
+                             الفئة  
+                            <span class="caret"></span>
+                             </button>
+                             <ul class="dropdown-menu custom-dropdown-menu">
+                                <li>
+                                  <div class="checkbox">
+                                      <label>
+                                        <input type="checkbox" name="search-category" value=" Mattresses">  أفرشة
+                                      </label>
+                                  </div> 
+                                </li>
+                                <li>
+                                  <div class="checkbox">
+                                      <label>
+                                        <input type="checkbox" name="search-category" value="Cushions">وسائد
+                                      </label>
+                                  </div> 
+                                </li>
+                             </ul>
+                           <button type="submit" class="btn btn-primary custom-btn custom-btn-primary">ابحث</button>
+                         </div>
+                     </div>
+                   </form>
+                </div>
+                  <div id="navbar-collapsed-menu" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-right custom-navbar-right">
+                    <li>
+                      <a href=".">الصفحة الرئيسية</a>  
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">أقسام المتجر
+                        <span class="caret"></span>
+                      </a>
+                        <ul class="dropdown-menu custom-dropdown-menu">
+                          <li>
+                            <a href="#">أفرشة</a>
+                          </li>
+                          <li>
+                            <a href="#">وسائد</a>
+                          </li>
+                        </ul>
+                    </li>
+                    <li>
+                      <a href="search.html">البحث المتقدم</a>
+                    </li>
+                    <li>
+                      <a href="contact.html">تواصل معنا</a>  
+                    </li>
+                    <li class="hidden-xs">
+                      <a href="checkout.html" id="btn-shopping-cart" title="عربة الشراء" data-toggle="tooltip" data-placement="bottom" class="btn btn-default navbar-btn custom-btn">
+                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                      </a>  
+                    </li>
+                  </ul>
+                  </div>
+              </div>
+          </nav>
+        
+        </div><!--نهاية الشريط العلوي-->
+         
+        <div class="row">
+           <div class="container">
+             <ol class="breadcrumb custom-breadcrumb">
+               <li><a href=".">الصفحة الرئيسية</a></li>
+               <li><a href="#">أفرشة</a></li>
+               <li class="active">فراش تريكوتي 1</li>
+             </ol> 
+            <div class="col-xs-12 borders-between">
+            <div class="row">
+                 <div class="col-md-5 col-md-offset-1">
+                     <div class="carousel slide" id="carousel-product-images" data-ride="carousel">
+                       <div class="carousel-inner">
+                          <div class="item active">
+                             <img src="images/matlastrico1.jpg" alt="فراش بياركاردا">
+                          </div>
+                          <div class="item">
+                             <img src="images/matlastrico_1.jpg" alt="فراش بياركاردا">
+                          </div>
+                       </div>
+                       <div class="carousel-indicators custom-carousel-indicators-primary">
+                           <img data-target="#carousel-product-images" src="images/matlastrico1.jpg" data-slide-to="0" alt="فراش بياركاردا" class="active">
+                           <img data-target="#carousel-product-images" src="images/matlastrico_1.jpg" data-slide-to="1" alt="فراش بياركاردا" >
+                       </div>
+                     </div>
+</div>
+                 <div class="col-md-5">
+                     <form id="form-product-selection" class="borders-between">
+                         <div class="row">
+                            <div class="text-muted custom-text-muted">
+                             أفرشة 
+                            </div>
+                             <div class="clearfix">
+                               <h2 class="pull-left">فراش تريكوتي 1</h2>
+                               <div class="pull-right price large">18000 دج</div>
+                             </div>
+</div>
+                         <div class="row">
+                           <p>فراش صحي يمنحك الراحة و يدعم  عضلاتك</p>
+</div>
+                         <div class="row">
+                           <div class="col-xs-6">
+                            الماركة:
+                              <img class="logo-small" src="images/oscar_small.png" alt="OSCAR">
+                           </div>
+                           <div class="col-xs-6">
+                              <div class="pull-right rating">
+                                 <i class="fa fa-star active"></i>
+                                 <i class="fa fa-star active"></i>
+                                 <i class="fa fa-star active"></i>
+                                 <i class="fa fa-star active"></i>
+                                 <i class="fa fa-star "></i>
+
+                              </div>  
+                           </div>
+</div>
+                         <div class="row">
+                           <div class="col-xs-6">
+                               <label class="custom-label">المقاسات المتاحة:
+                                 <select name="size" class="form-control custom-form-control select-inline">
+                                   <option value="65X180">65X180</option>
+                                   <option value="70X190">70X190</option>
+                                   <option value="80X190">80X190</option>
+                                   <option value="140X190">140X190</option>
+                                   <option value="140X200">140X200</option>
+                                   <option value="160X190" selected>160X190</option>
+                                   <option value="160X200">160X200</option>
+                                   <option value="180X200">180X200</option>
+                                 </select>
+                               </label>     
+                           </div>
+                           <div class="col-xs-6">
+                               الالــوان المتاحة:<br>
+                             <div class="product-option color-option active" style="background-color:#6c6c69">
+                               <label>
+                                 <input type="radio" name="color" value="maron-fonsé">  
+                               </label>  
+                             </div>
+                             <div class="product-option color-option" style="background-color:#dedee4">
+                               <label>
+                                 <input type="radio" name="color" value="gray">  
+                               </label>  
+                             </div>
+                             <div class="product-option color-option" style="background-color:#f7f5b0">
+                               <label>
+                                 <input type="radio" name="color" value="jaune-clear">  
+                               </label>  
+                             </div>
+                           </div>
+</div>
+                         <div class="row">
+                          <div class="col-xs-6">
+                               <label class="custom-label">العدد المطلوب:
+                                 <select name="quantity" class="form-control custom-form-control select-inline">
+                                   <option value="1">1</option>
+                                   <option value="2">2</option>
+                                   <option value="3">3</option>
+                                   <option value="4">4</option>
+                                   <option value="5">5</option>
+                                   <option value="6">6</option>
+                                   <option value="7">7</option>
+                                   <option value="8">8</option>
+                                   <option value="9">9</option>
+                                   <option value="10">10</option>
+                                 </select>
+                               </label>       
+                          </div> 
+</div>
+                         <div class="row">
+                           <div class="col-xs-12">
+                              <h4 class="custom-heading">
+                               أطلــب الان
+                              </h4> 
+                             <div id="contact-info1">
+                              <div>
+                                <i class="fa fa-phone fa-lg"></i>
+                                  0550.30.26.70 /  0676.90.73.71
+                              </div>
+                              <div>
+                                <i class="fa fa-envelope fa-lg"></i>
+                                  matelasoscar@gmail.com
+                              </div>
+                              <div>
+                                <i class="fa fa-map-marker fa-lg"></i>
+                                  العنوان: الجزائر العاصمة 
+                              </div>
+                             </div>
+                           </div>
+</div>
+                     </form>
+                 </div>
+               </div>
+            <div class="row">
+                  <div class="col-xs-12">
+                   <h3 class="custom-heading custom-heading-with-border-bottom">
+                     وصــف المنــتج  
+                   </h3>
+                     <p>فراش صحي يمنحك الراحة و يدعم عضلاتك
+                     </p>
+                     <ul>
+                        <li>مصنع من القماش بنسبة 30%</li>
+                        <li>مصنع من الاسفنج بنسبة 70%</li>
+                     </ul>
+</div>
+                 </div>
+                </div>
+           </div>
+        </div>
+        
+        <!--ذيل الصفحة-->
+        <div id="footer" class="row">
+          <!--شعارات الشركات-->
+          <div id="brand-logos" class="col-xs-12 text-center">
+              <img src="images/oekoTex.png" alt="certificate">
+              <img src="images/greenfirst.png" alt="certificate">
+              <img src="images/AloeveraLogo.png" alt="certificate">
+          </div>
+          <!--نهاية شعارات الشركات-->
+          <div class="col-xs-12 text-center" id="footer-nav">
+             <div class="container">
+               <!--شعار الموقع -->
+               <div class="col-xs-12">
+                 <a href=".">
+                   <img src="images/logo_footer.png" alt="oscar">  
+                 </a>  
+               </div> 
+               <!--نهاية شعار الموقع-->
+               <div id="footer-nav-links" class="col-xs-12 hidden-xs">
+                  <a href=".">الصفحة الرئيسية</a>
+                  <a href="search.html">البحث المتقدم</a>
+                  <a href="contact.html">تواصل معنا</a>
+               </div>
+               <div class="col-xs-12">
+                  <form class="form form-inline col-md-6 col-md-offset-3">
+                      <label for="footer-email"><small>اشترك بالنشرة البريدية لمتابعة احدث العروض </small></label> 
+                    <br>
+                 <div class="input-group">
+                        <input class="form-control custom-form-control" id="footer-email" type="email" placeholder="البريد الالكتروني" required>
+                     <div class="input-group-btn">
+                        <button type="submit" class="btn btn-primary custom-btn custom-btn-primary custom-btn-primary2">متابعة</button>
+                     </div>
+                  </div>
+                  </form>  
+               </div>
+             </div>  
+          </div>
+            <div class="col-xs-12" id="footer-copyright-social">
+                <div class="container">
+                  <div class="clearfix">
+                    <div id="copyright" class="pull-left">
+                        جميع الحقوق محفوضة لمتجر أوسكــار لسنة 2018
+                    </div>
+                    <div id="social-icons" class="pull-right">
+                      <a href="#">
+                        <i class="fa fa-facebook-square fa-lg"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-twitter-square fa-lg"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-instagram fa-lg"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div><!--نهاية ذيل الصفحة-->
+
+    </div>
+    <script src="./js/jquery-2.2.4.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
